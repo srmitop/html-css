@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*
+#82D186
+#BFD282
+#D1CD82
+*/
+
+
+
+
+body{
+   background-image: linear-gradient(to right,#7aab7b,white);
+    margin: 10px;
+    padding: 0;
+
+}
+
+:root{
+    --fontePadrao: Arial,verdana,helvetica,sans-serif;
+}
+
+header{
+    font-family: "Bebas Neue", sans-serif;
+    background-image: linear-gradient(to bottom,#82D186,#41af1f);
+   margin: -23px -10px -16px -10px;
+    margin-top: -23px;
+    text-align: center;
+   margin-bottom:-16px ;
+    padding-bottom: 8px;
+   
+}
+
+
+header>h1{
+    margin-bottom: -10px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 0; 
+    padding: 1px 5px 0px 5px;
+    margin:0px -10px 22px -10px;
+}
+
+a{
+    color: blue;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
+ main a {
+color: black;
+font-weight: bold;
+text-decoration: none;
+
+ }
+
+
+main{
+
+min-width: 300px;
+max-width: 1000px;
+margin: auto;
+}
+main img{
+    width: 100%;
+}
+main p{
+    margin: 15px 0px;
+    text-indent: 25px;
+    text-align: justify;
+    font-size:18px;
+    padding: 0px 4px 0px 4px;
+}
+
+main h2,h3{
+    text-indent: 20px;
+    color: rgb(230, 228, 228);
+    background-image: linear-gradient(to bottom,#24690f,rgba(24, 23, 23, 0.894));
+    border-radius: 8px 8px 0px 0px;
+    padding-bottom: 10px;
+    
+}
+
+main aside{
+    background-color: #69b951;
+    margin-bottom: 40px;
+}
+
+main a::after{
+    content: '\00A0\1F517';
+
+}
+
+div.video{
+    background-color: #24690f;
+    margin: 30px;
+    position: relative;
+    padding-bottom: 59%;
+    margin: 0px 20px 30px 20px;
+    padding: 20px;
+}
+div>.video>iframe{
+    position: absolute;
+    top: 5%;
+    left:5% ;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    display: flex;
+    background-color: #35901a;
+    justify-content: center;
+    padding: 2px 0px; 
+}
+
+footer > p {
+    margin: 0; 
+    color: rgb(219, 216, 216);
+}
+
+
+
